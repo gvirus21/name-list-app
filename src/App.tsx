@@ -1,22 +1,18 @@
 import "./App.css";
-
-const NAMES = [
-  "Name one",
-  "Name two",
-  "Name Three",
-  "Name Four",
-  "Name Five",
-  "Name Six",
-];
+import HeadSection from "./components/head-section";
+import MainSection from "./components/main-section";
+import Footer from "./components/footer";
 
 function App() {
   return (
-    <div className="flex justify-center items-center h-[80vh] w-full">
-      <ul className="list-disc space-y-4 text-2xl capitalize text-left">
-        {NAMES.map((name) => (
-          <li>{name}</li>
-        ))}
-      </ul>
+    <div className="flex justify-center items-center h-screen w-screen bg-slate-100">
+      <div className="relative flex flex-col items-center h-[75rem] w-[50rem] bg-white">
+        <div className="relative border-2 border-black h-[65rem] w-[45rem] mt-10">
+          <HeadSection />
+          <MainSection />
+        </div>
+        <Footer />
+      </div>
     </div>
   );
 }
