@@ -2,11 +2,11 @@ const HeadSection = () => {
   return (
     <div>
       <img
-        src="src/assets/odisha-logo.png"
+        src="/assets/odisha-logo.png"
         className="absolute top-10 left-[50%] translate-x-[-50%] h-20 w-20"
       />
       <img
-        src="src/assets/profile-pic.png"
+        src="/assets/profile-pic.png"
         className="absolute top-8 right-10 h-32 w-[6.5rem]"
       />
 

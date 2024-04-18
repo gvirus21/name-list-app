@@ -22,7 +22,9 @@ const MainSection = () => {
       </div>
 
       <PeopleTable />
-      <img className="absolute top-[70%] left-5 h-[10rem] w-[10rem]" src="src/assets/qr-code.png" />
+
+      {/* QR Code */}
+      <img className="absolute top-[70%] left-5 h-[10rem] w-[10rem]" src="/assets/qr-code.png" />
 
       {/* sign section */}
       <>
