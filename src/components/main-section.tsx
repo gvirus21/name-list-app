@@ -1,3 +1,5 @@
+import PeopleTable from "./table";
+
 const MainSection = () => {
   return (
     <div className="mt-[18rem]">
@@ -19,15 +21,20 @@ const MainSection = () => {
         </p>
       </div>
 
+      <PeopleTable />
+      <img className="absolute top-[70%] left-5 h-[10rem] w-[10rem]" src="src/assets/qr-code.png" />
+
       {/* sign section */}
-      <div className="absolute top-[80%] right-10 text-[10px]">
-        <p>Signature of the Revenue Officer</p>
-        <p className="font-bold">14/07/2023</p>
-      </div>
-      <div className="absolute top-[80%] right-[13rem] text-[10px]">
-        <p>Digitally signed by LALIT BAG</p>
-        <p>Date: 2023.07.14 11:01:28 + 05:30</p>
-      </div>
+      <>
+        <div className="absolute top-[80%] right-10 text-[10px]">
+          <p>Signature of the Revenue Officer</p>
+          <p className="font-bold">14/07/2023</p>
+        </div>
+        <div className="text-slate-500 absolute top-[77%] right-[3rem] text-[8px]">
+          <p>Digitally signed by LALIT BAG</p>
+          <p>Date: 2023.07.14 11:01:28 + 05:30</p>
+        </div>
+      </>
 
       {/* bottom section */}
       <div className="absolute bottom-0 left-0 text-[10px] flex flex-col items-start text-left px-4 mb-2">
