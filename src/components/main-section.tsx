@@ -24,11 +24,11 @@ const MainSection = () => {
       <PeopleTable />
 
       {/* QR Code */}
-      <img className="absolute top-[70%] left-5 h-[10rem] w-[10rem]" src="/assets/qr-code.png" />
+      <img className="absolute top-[65%] left-5 h-[14rem] w-[14rem]" src="/assets/qr-code.png" />
 
       {/* sign section */}
       <>
-        <div className="absolute top-[80%] right-10 text-[10px]">
+        <div className="absolute top-[80%] right-10 flex flex-col items-center text-[10px]">
           <p>Signature of the Revenue Officer</p>
           <p className="font-bold">14/07/2023</p>
         </div>

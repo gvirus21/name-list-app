@@ -10,7 +10,7 @@ const HeadSection = () => {
         className="absolute top-8 right-10 h-32 w-[6.5rem]"
       />
 
-      <div className="absolute top-36 left-[50%] -translate-x-[50%] text-[10px]">
+      <div className="absolute top-36 left-[50%] -translate-x-[50%] flex flex-col items-center text-[10px]">
         <p className="font-bold">FORM No. II</p>
         <p className="font-semibold italic">(See Rule 3)</p>
         <p className="font-bold">GOVERNMENT OF ODISHA</p>
